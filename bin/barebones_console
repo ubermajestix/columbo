@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), "..", "lib")
+
+require "columbo"
+require "irb"
+
+begin
+  gem "main", ">= 2.8.2" # 2.8.2 has a bugfix for the default block for -1 arity arguments
+  require "main"
+rescue
+  Gem::LoadError
+  STDERR.puts "need the main gem to run ci_console. sudo gem install main"
+end
+
+Main::Softspoken.off!
+ColumboConsole = Main.create do
+
+  description <<-EOS
+The Columbo console.
+
+Gives you an irb prompt so you can interact with the domain model.
+  EOS
+
+  examples <<-EOS
+Start the console in the test environment (default):
+
+  sentiment_console
+
+Specify an environment to use:
+
+  sentiment_console production
+
+  EOS
+
+  argument "environment" do
+    description "The environment in which to initialize Columbo"
+    default ENV["RACK_ENV"] || "test"
+    attribute
+  end
+
+  run do
+    # include the current lib dir, if applicable
+    if File.directory?(File.join(Dir.pwd, "lib"))
+      $:.unshift File.join(Dir.pwd, "lib")
+    end
+    Columbo.initialize(:environment=>environment)
+    IRB.start(__FILE__)
+  end
+
+end
+
+ColumboConsole.new.run

@@ -1,0 +1,17 @@
+= Columbo will find you
+
+Bookmarklet to search text on a page 
+
+== Installation
+
+  sudo gem install ubermajestix-columbo
+
+== TODO
+* bookmarklet css
+* webpage design/css
+* save searches to ui non-persistant
+* save searches to db (user login req)
+* use facebook connect for users
+* highlight color for each search term
+* close button -> tears down ui
+* database init for heroku (look at... ttl.ubermajestix.com)
