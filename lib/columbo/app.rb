@@ -16,7 +16,7 @@ module Columbo
       puts "=="*45
       puts ENV['RACK_ENV']
       puts ENV.inspect
-      puts @bookmarklet.gsub!("\n\n")
+      puts @bookmarklet.gsub!("\n\n" , '')
       puts "=="*45
        erb :index
     end       
