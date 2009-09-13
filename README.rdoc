@@ -7,11 +7,9 @@ Bookmarklet to search text on a page
   sudo gem install ubermajestix-columbo
 
 == TODO
-* bookmarklet css
 * webpage design/css
-* save searches to ui non-persistant
-* save searches to db (user login req)
-* use facebook connect for users
-* highlight color for each search term
-* close button -> tears down ui
+* save searches to ui non-persistant or access/write cookie?
+* save searches to db (user login req) -- don't do this if we can hit the cookie
+* use facebook connect for users -- won't need if cookies work
+* highlight color for each search term - might be tough
 * database init for heroku (look at... ttl.ubermajestix.com)
