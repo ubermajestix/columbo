@@ -1,4 +1,4 @@
-#_columbo_div{width:350px; height:75px; font-size: 10px;}
+#_columbo_div{width:350px; color:#4a4a4a; }
 #_columbo_div label{font-size:0.6em; color:#a1a1a1; font-weight: bold;}
 #_columbo_div a, a.visited {color:#ff600a; font-weight: bold; cursor:pointer;}
 #_columbo_div a:hover {color:#82BA00; font-weight: bold; cursor:pointer;}
@@ -11,3 +11,6 @@
 #_columbo_close{float:right; margin:-20px -20px 0 0; font-size:0.5em;}
 #_columbo_search{width:330px; margin-bottom:5px; font-size:0.7em; color:#4a4a4a;}
 #_columbo_submit{float:right;}
+
+#_columbo_results h3{ font-size:1.0em;}
+#_columbo_results{font-size:0.7em; line-height:1.4em;}

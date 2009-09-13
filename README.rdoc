@@ -13,6 +13,7 @@ Bookmarklet to search text on a page
 * use facebook connect for users -- won't need if cookies work
 * highlight color for each search term - might be tough
 * database init for heroku (look at... ttl.ubermajestix.com)  
-* font size in div...not working.
 * safari not loading. 
 * test on ie and chrome
+* count each occurance of the word.
+* build hash of all words being searched, add count for each word to hash, pull highlight class from hash.keys position (hightlight_1) this would solve both the word count and multi-color problem. 
