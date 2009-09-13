@@ -12,4 +12,7 @@ Bookmarklet to search text on a page
 * save searches to db (user login req) -- don't do this if we can hit the cookie
 * use facebook connect for users -- won't need if cookies work
 * highlight color for each search term - might be tough
-* database init for heroku (look at... ttl.ubermajestix.com)
+* database init for heroku (look at... ttl.ubermajestix.com)  
+* font size in div...not working.
+* safari not loading. 
+* test on ie and chrome
