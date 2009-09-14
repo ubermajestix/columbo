@@ -18,6 +18,9 @@ Bookmarklet to search text on a page.
   sudo gem install ubermajestix-columbo
 
 == TODO
+* safari bugs: 
+** loading won't clear unless you load the bookmarklet twice
+** close only clears the div doesn't remove it
 * webpage design/css
 * save searches to ui non-persistant or access/write cookie?
 * test on ie and chrome
