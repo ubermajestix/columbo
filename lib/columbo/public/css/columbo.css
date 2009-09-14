@@ -1,4 +1,4 @@
-#_columbo_div{width:350px; color:#4a4a4a; }
+#_columbo_div{width:350px; color:#4a4a4a; font-family:Georgia,Serif; font-size:12px; fon }
 #_columbo_div label{font-size:0.6em; color:#a1a1a1; font-weight: bold;}
 #_columbo_div a, a.visited {color:#ff600a; font-weight: bold; cursor:pointer;}
 #_columbo_div a:hover {color:#82BA00; font-weight: bold; cursor:pointer;}
@@ -7,6 +7,13 @@
 ._columbo_left{float:left;}
 ._columbo_clear{clear:both;}
 ._columbo_highlight{background: #97FF85; color: #000;}
+._columbo_highlight0{background: #97FF85; color: #000;}
+._columbo_highlight1{background: #FFF882; color: #000;}
+._columbo_highlight2{background: #82CBF9; color: #000;}
+._columbo_highlight3{background: #EA706A; color: #000;}
+._columbo_highlight4{background: #8376DD; color: #000;}
+._columbo_highlight5{background: #77DAE2; color: #000;}
+._columbo_highlight6{background: #D06894; color: #000;}
 
 #_columbo_close{float:right; margin:-20px -20px 0 0; font-size:0.5em;}
 #_columbo_search{width:330px; margin-bottom:5px; font-size:0.7em; color:#4a4a4a;}

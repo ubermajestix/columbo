@@ -1,19 +1,24 @@
-= Columbo will find you
+= Columbo: word detective
 
-Bookmarklet to search text on a page 
+Bookmarklet to search text on a page.
+
+== Features 
+* Highlight several search terms on any html document. 
+* Highlights text similar to google's page cache (different color per word)
+* Returns a count of each search terms occurrence -- feature not yet available
+* 100% jQuery
 
 == Installation
 
+=== Bookmarklet:
+ 
+ drag this link: to your bookmarks
+
+=== Source code:
   sudo gem install ubermajestix-columbo
 
 == TODO
 * webpage design/css
 * save searches to ui non-persistant or access/write cookie?
-* save searches to db (user login req) -- don't do this if we can hit the cookie
-* use facebook connect for users -- won't need if cookies work
-* highlight color for each search term - might be tough
-* database init for heroku (look at... ttl.ubermajestix.com)  
-* safari not loading. 
 * test on ie and chrome
-* count each occurance of the word.
-* build hash of all words being searched, add count for each word to hash, pull highlight class from hash.keys position (hightlight_1) this would solve both the word count and multi-color problem. 
+* count each occurrence of the word. (build hash of all words being searched, add count for each word to hash)
