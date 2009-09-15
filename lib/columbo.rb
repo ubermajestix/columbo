@@ -8,7 +8,7 @@ require 'sinatra/base'
 
 module Columbo
   # :stopdoc:
-  VERSION = '0.0.4'
+  VERSION = '0.0.14'
   LIBPATH = ::File.expand_path(::File.dirname(__FILE__)) + ::File::SEPARATOR
   PATH = ::File.dirname(LIBPATH) + ::File::SEPARATOR
   # :startdoc:

@@ -1,7 +1,51 @@
-#_columbo_div{width:350px; color:#4a4a4a; font-family:Georgia,Serif; font-size:12px; fon }
-#_columbo_div label{font-size:0.6em; color:#a1a1a1; font-weight: bold;}
-#_columbo_div a, a.visited {color:#ff600a; font-weight: bold; cursor:pointer;}
-#_columbo_div a:hover {color:#82BA00; font-weight: bold; cursor:pointer;}
+#_columbo_div {
+  width: 350px;
+  color: #4a4a4a;
+  background: #000;
+  font-family: Georgia,Serif;
+  font-size: 12px;
+  /* for IE */
+  filter:alpha(opacity=90);
+  /* CSS3 standard */
+  opacity:0.90;
+}
+#_columbo_div label {
+  font-size: 0.6em;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+#_columbo_div h1 {
+  font-size: 1.2em;
+  color: #000;
+  font-weight: bold;
+}
+
+#_columbo_div h2 {
+  font-size: 1.0em;
+  color: #2a2a2a;
+  font-weight: bold;
+}
+
+#_columbo_div h3 {
+  font-size: 0.8em;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+
+#_columbo_div a, a.visited {
+  color: #ff600a;
+  font-weight: bold;
+  cursor: pointer;
+  font-size:0.7em;
+}
+#_columbo_div a:hover {
+  color: #4a4a4a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 
 ._columbo_right{float:right;}
 ._columbo_left{float:left;}
@@ -12,8 +56,9 @@
 ._columbo_highlight2{background: #82CBF9; color: #000;}
 ._columbo_highlight3{background: #EA706A; color: #000;}
 ._columbo_highlight4{background: #8376DD; color: #000;}
-._columbo_highlight5{background: #77DAE2; color: #000;}
+._columbo_highlight5{background: #4F8FD4; color: #000;}
 ._columbo_highlight6{background: #D06894; color: #000;}
+._columbo_small{font-size:0.5em;}
 
 #_columbo_close{float:right; margin:-20px -20px 0 0; font-size:0.5em;}
 #_columbo_search{width:330px; margin-bottom:5px; font-size:0.7em; color:#4a4a4a;}

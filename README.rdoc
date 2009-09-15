@@ -6,7 +6,8 @@ Bookmarklet to search text on a page.
 * Highlight several search terms on any html document. 
 * Highlights text similar to google's page cache (different color per word)
 * Returns a count of each search terms occurrence -- feature not yet available
-* 100% jQuery
+* Saves sets of search terms for later use -- feature being developed 
+* 100% jQuery, lightweight, object-oriented javascript, boom.
 
 == Installation
 
@@ -20,7 +21,7 @@ Bookmarklet to search text on a page.
 == TODO
 * safari bugs: 
 ** loading won't clear unless you load the bookmarklet twice
-** close only clears the div doesn't remove it
+** close only clears the div doesn't remove it -> this happens when the above bug occurs.  it appears the loading div is left behind the newly loaded div
 * webpage design/css
 * save searches to ui non-persistant or access/write cookie?
 * test on ie and chrome
