@@ -59,6 +59,7 @@
 ._columbo_highlight5{background: #4F8FD4; color: #000;}
 ._columbo_highlight6{background: #D06894; color: #000;}
 ._columbo_small{font-size:0.5em;}
+._columbo_color_box{float: left; height: 12px; width: 12px; margin-right:5px}
 
 #_columbo_close{float:right; margin:-20px -20px 0 0; font-size:0.5em;}
 #_columbo_search{width:330px; margin-bottom:5px; font-size:0.7em; color:#4a4a4a;}
