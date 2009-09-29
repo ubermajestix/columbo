@@ -14,6 +14,11 @@ div#_columbo_toggle{
   width: 120px; 
   position:absolute;
 }
+div#_columbo_wrapper{
+  color: #e4e4e4;
+  font-family: Arail,Sans-Serif;
+  font-size: 12px;
+}
 
 div#_columbo_div {
 /*  padding:100px;*/
@@ -22,8 +27,9 @@ div#_columbo_div {
   color: #e4e4e4;
   font-family: Arail,Sans-Serif;
   font-size: 12px;
-  background: transparent url("../images/open_background.png") no-repeat;
 }
+._columbo_show{background: transparent url("../images/open_background.png") no-repeat;}
+._columbo_hidden{ background: transparent url("../images/hidden_background.png") no-repeat;}
 
 #_columbo_div label {
   font-size: 10px;
@@ -51,13 +57,13 @@ div#_columbo_div {
 }
 
 
-#_columbo_div a, a.visited {
+#_columbo_wrapper a, a.visited {
   color: #e4e4e4;
   font-weight: bold;
   cursor: pointer;
   font-size:10px;
 }
-#_columbo_div a:hover {
+#_columbo_wrapper a:hover {
   color: #5FA8F7;
   font-weight: bold;
   cursor: pointer;
@@ -76,18 +82,23 @@ div#_columbo_div {
 ._columbo_highlight4{background: #8376DD; color: #000;}
 ._columbo_highlight5{background: #4F8FD4; color: #000;}
 ._columbo_highlight6{background: #D06894; color: #000;}
+._columbo_term{border-bottom: 1px solid #4d4d4d; padding:5px 0 5px 0;}
+._columbo_next{background: transparent url("../images/next.png") no-repeat; height:21px; width:18px; margin-top:-4px;cursor: pointer;}
+._columbo_prev{background: transparent url("../images/prev.png") no-repeat; height:21px; width:18px; margin-top:-4px; margin-right:3px; cursor: pointer;}
 ._columbo_small{font-size:8px;}
 ._columbo_color_box{float: left; height: 12px; width: 12px; margin-right:5px}
 
 div._columbo_clear_search{
   margin-top:;
-  width:200px;
-  margin:0px 0 5px 90px;
-  padding:5px;
+  width:215px;
+  margin:18px 0 0px 90px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #_columbo_close {
- height:27px;
+padding-top: 7px;
+ height:34px;
  width:305px;
  background: transparent url('/images/close.png') no-repeat;
 }
