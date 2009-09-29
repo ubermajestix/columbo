@@ -51,7 +51,7 @@ div#_columbo_div {
 
 #_columbo_div h3 {
   font-size: 12px;
-  line-height: 0px;
+  line-height: 12px;
   color: #e4e4e4;
   font-weight: bold;
 }
@@ -87,11 +87,11 @@ div#_columbo_div {
 ._columbo_prev{background: transparent url("../images/prev.png") no-repeat; height:21px; width:18px; margin-top:-4px; margin-right:3px; cursor: pointer;}
 ._columbo_small{font-size:8px;}
 ._columbo_color_box{float: left; height: 12px; width: 12px; margin-right:5px}
-
+._columbo_clear_history{height:21px; width:18px; background: transparent url("../images/cancel.png");}
 div._columbo_clear_search{
   margin-top:;
   width:215px;
-  margin:18px 0 0px 90px;
+  margin:10px 0 0px 90px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -127,7 +127,7 @@ input#_columbo_search{
   height:190px;
   overflow-x:none;
   overflow-y:auto;
-  margin:0px 0 5px 90px;
+  margin:10px 0 5px 90px;
   padding:5px;
 }
 
