@@ -88,6 +88,7 @@ div#_columbo_div {
 ._columbo_small{font-size:8px;}
 ._columbo_color_box{float: left; height: 12px; width: 12px; margin-right:5px}
 ._columbo_clear_history{height:21px; width:18px; background: transparent url("../images/cancel.png");}
+._columbo_oooh_me{border:2px solid red; padding:3px;}
 div._columbo_clear_search{
   margin-top:;
   width:215px;
