@@ -1,10 +1,21 @@
 <html>
   <head>
-    <title>getColumbo</title>
+    <title>= coloumbo = multiple search term highlighter =</title>
     <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css" />
     
   </head>
   <body>
-    <%= yield %>
+    <div id="wrap">
+      <div id="main" class="clearfix">
+            <%= yield %>
+      </div>
+    </div>
+    <div id="footer">
+      <div>Powered by:</div>
+      <div class="heroku left">&nbsp;</div>
+      <div class="ci left">&nbsp;</div>
+      <div class="copyright right">&copy; 2009 tyler montgomery</div>  
+      <div class="clear"></div>  
+    </div>
   </body>
 </html>

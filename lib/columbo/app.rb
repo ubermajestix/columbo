@@ -19,6 +19,7 @@ module Columbo
       puts @bookmarklet.gsub!("\n\n" , '')
       puts "=="*45
        erb :index
-    end       
+    end
+    
   end
 end  

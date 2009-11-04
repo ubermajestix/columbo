@@ -1,7 +1,84 @@
+* {margin:0;padding:0;} 
+
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+
+
 body {
-background: #FFFAF2;
-color: #433f3c;
-font-size:8pt;
-font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+background: #1c1c1c;
+color: #ffffff;
+font-size:13pt;
+line-height:15pt;
+font-family: 'Helvetica', 'Verdana', sans-serif;
 }
+p{margin-bottom:0.8em;}
 div.team{padding:10px; border:1px solid;}
+div#header{
+  background: #fff url(/images/header.png) no-repeat;
+  height: 171px;
+}
+div#columbo{
+  height:171px;
+  width:583px;
+  background: transparent url('/images/columbo_bookmarklet.png') no-repeat;
+  margin: 0 0 0 85px;
+  padding: 35px 0 0 220px;
+}
+div#content{
+  padding:40px 0 0 35px;
+}
+div#bookmarklet{
+/*  border: 1px solid #999;*/
+/*  height:85px;*/
+  width:175px;
+  font-size:7.0em;
+  padding:20px 0;
+  overflow:hidden;
+}
+h1{font-size: 1.2em; margin-bottom:0.5em;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear: both;}
+.paragraph{width:400px; font-size:1.0em;}
+
+
+a.bm:link, a.bm:visited, a.bm:hover{color:transparent; text-decoration: none;}
+
+.heroku{
+  margin:10px;
+  height: 27px;
+  width: 84px;
+  background: transparent url("/images/heroku.png") no-repeat;
+}
+
+.ci{
+  margin:10px;
+  height: 30px;
+  width: 154px;
+  background: transparent url("/images/ci.png") no-repeat;
+}
+
+
+#main {padding-bottom: 60px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -100px; /* negative value of footer height */
+	height: 60px;
+	clear:both;
+	background: #fff;
+  color: #1c1c1c;
+	padding:20px;
+	font-size:0.9em;
+	} 
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
