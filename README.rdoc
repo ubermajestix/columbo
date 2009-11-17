@@ -19,6 +19,6 @@ Bookmarklet to search text on a page.
   sudo gem install ubermajestix-columbo
 
 == TODO
-* webpage design/css
+* redesigned bookmarklet does not drag to FF bookmarks toolbar
 * save searches to db - use twitter/facebook auth?
 * test on ie(doesn't work) and chrome(works!)
