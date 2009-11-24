@@ -1,77 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
     <title>getColumbo mock</title>
     <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/css/columbo.css" media="screen" rel="stylesheet" type="text/css" />
+	<script>
+	function importJS(src, look_for, onload) {
+	var s = document.createElement('script');
+	s.setAttribute('type', 'text/javascript');
+	s.setAttribute('src', src);
+	if (onload) wait_for_script_load(look_for, onload);
+	var head = document.getElementsByTagName('head')[0];
+	if (head) {
+	head.appendChild(s);
+	} else {
+	document.body.appendChild(s);
+	}
+	}
+	
+	function wait_for_script_load(look_for, callback) {
+	var interval = setInterval(function() {
+	if (eval("typeof " + look_for) != 'undefined') {
+	clearInterval(interval);
+	callback();
+	}
+	}, 50);
+	}
+	
+	(function(){
+	importJS('http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js', 'jQuery', function() {     jQuery.noConflict();
+	$=jQuery;
+	});
+	})();
+	</script>
+	
+	<script>
+	$(document).ready(function(){
+	
+	$("._columbo_term:even").addClass("_gray");
+	
+	
+	});
+	</script>
+
   </head>
   <body>
-    <h1>Columbo <h3>...word detective</h3></h1>
 
-    <p>
-      install it now drag
-      <a title="drag this to your bookmarks" href="#">
-        columbo 
-      </a>
-      to your bookmarks
-    </p>
-    <p>Columbo is a bookmarklet that allows you to search for several terms on any webpage.</p>
+<div style="color: rgb(170, 170, 170); position: fixed; z-index: 9999; font-size: 12pt; text-align: left; right: 0px; top: 50px;" id="_columbo_wrapper">
+	<!-- <div class="_columbo_hidden"/> -->
+	<div class="_columbo_show" id="_columbo_div">
+		<div id="_columbo_toggle"></div>
+		<div class="_columbo_search">
+			<input type="text" id="_columbo_search" value="search, terms, go, here"/>
+		</div>
+		<div id="_columbo_inner_wrapper">
+			<div id="_columbo_recent" style="display: none;">
+				<h3 class="_columbo_left">Recent Searches</h3>
+				<a title="clear recent searches" onclick="self.clear_cookie()" class="_columbo_right _columbo_clear_history"/>
+				<div class="_columbo_clear"></div>
+				<a onclick="jQuery('input#_columbo_search').val('search, terms, go, here'); self.search_highlight(true);">search, terms, go, here</a>
+				<br/>
+				<a onclick="jQuery('input#_columbo_search').val('collective, jeff, who, built'); self.search_highlight(true);">collective, jeff, who, built</a>
+				<br/>
+				<a onclick="jQuery('input#_columbo_search').val('collective, jeff, who'); self.search_highlight(true);">collective, jeff, who</a>
+				<br/>
+				<a onclick="jQuery('input#_columbo_search').val('collective, jeff'); self.search_highlight(true);">collective, jeff</a>
+				<br/>
+				<a onclick="jQuery('input#_columbo_search').val('collective'); self.search_highlight(true);">collective</a>
+				<br/>
+				<a onclick="jQuery('input#_columbo_search').val(''); self.search_highlight(true);"/>
+				<br/>
+			</div>
+			<div id="_columbo_results">
+				<!-- <h3>Results</h3>-->
+				
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight0 _columbo_color_box _columbo_left _columbo_next_0"></div>
+					search - 4
+					<div class="_columbo_right _columbo_next" id="_columbo_next_0"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_0"></div>
+				</div>
 
-    <p>screenshot</p>
-    <img src="/images/mock_ss.png"/>
-    
-    
-    
-    <div id="_columbo_wrapper">
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight0 _columbo_color_box _columbo_left _columbo_next_0"></div>
+					search - 4
+					<div class="_columbo_right _columbo_next" id="_columbo_next_0"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_0"></div>
+				</div>
 
-      <div id="_columbo_div">
-        <div id="_columbo_toggle">
-          toggle
-        </div>
-        <div class="_columbo_search">
-          <input id="_columbo_search" type="text"/>          
-        </div>
-        <div id="_columbo_inner_wrapper">
-          <div id="_columbo_results">
-            results
-          </div>
-          <div id="_columbo_recent">
-            recent searches <br/>
-            search realy reyall long long long tearm that just is so fucking long something happens like wrapping! <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            search <br/>
-            
-          </div>
-        </div>
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight0 _columbo_color_box _columbo_left _columbo_next_0"></div>
+					search - 4
+					<div class="_columbo_right _columbo_next" id="_columbo_next_0"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_0"></div>
+				</div>
 
-        
-        
-        <div class="_columbo_clear_search">
-          <a class="_columbo_left" id="_columbo_clear_search">clear</a>
-          <a class="_columbo_right" id="_columbo_toggle_results">view terms</a>
-          <div class="_columbo_clear"></div>
-          
-        </div>
-        
-      </div>
-      <div id="_columbo_close"><div id="_columbo_click_close">close</div></div>
-      
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight0 _columbo_color_box _columbo_left _columbo_next_0"></div>
+					search - 4
+					<div class="_columbo_right _columbo_next" id="_columbo_next_0"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_0"></div>
+				</div>
 
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight1 _columbo_color_box _columbo_left _columbo_next_1"></div>
+					terms - 2
+					<div class="_columbo_right _columbo_next" id="_columbo_next_1"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_1"></div>
+				</div>
+				
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight2 _columbo_color_box _columbo_left _columbo_next_2"></div>
+					go - 2
+					<div class="_columbo_right _columbo_next" id="_columbo_next_2"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_2"></div>
+				</div>
+				
+				<div class="_columbo_term ">
+					<div class="_columbo_highlight3 _columbo_color_box _columbo_left _columbo_next_3"></div>
+					here - 0
+					<div class="_columbo_right _columbo_next" id="_columbo_next_3"></div>
+					<div class="_columbo_right _columbo_prev" id="_columbo_prev_3"></div>
+				</div>
+			</div>
+		</div>
+		<div class="_columbo_clear_search">
+			<a id="_columbo_clear_search" class="">clear all <span class="">terms</span></a>
+		</div>
+	</div>
+	
+	<div id="_columbo_close">
+		<div id="_columbo_click_close"></div>
+		<a style="display: none;" id="_columbo_view_results" class="_columbo_right">view terms</a>
+		<a id="_columbo_view_searches" class="_columbo_right">view searches</a>
+	</div>
 
-    </div>
-  </body>
+</div>
+
+</body>
 </html>
