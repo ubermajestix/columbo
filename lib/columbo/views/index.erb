@@ -1,13 +1,13 @@
 <div id="header">
   <div id="columbo">
     <a class="bm" title="drag this to your bookmarks" href="<%= @bookmarklet %>">
-      <div id="bookmarklet">columbo!</div>
+      columbo
     </a>
   </div>
 </div>
 <div id="content">
   <div class="paragraph left">  
-    <h1>Columbo: Word Detective</h1>
+    <h1 id="detective">The Word Detective</h1>
     <p>
       Columbo allows you to search for several terms on almost any webpage. 
       It highlights each term a different color and allows you to quickly navigate to each word. 
@@ -17,25 +17,29 @@
       To use it, just click the bookmark on any webpage to load Columbo (Safari users may have to click the bookmark twice), then search away.
     </p>
     <div id="sponsors" class="paragraph">
-      <div class="ruby left" title="ruby is for gangsters" onclick="window.open('http://ruby-lang.org')"><a href="http://ruby-lang.org">ruby</a></div>
-      <div class="heroku left" title="free ruby app hosting, its awesome" onclick="window.open('http://heroku.com')"><a href="http://heroku.com">heroku</a></div>
-      <div class="ci left" title="market research using social media, unsolicited feedback, yeah its cool" onclick="window.open('http://collectiveintellect.com')"><a href="http://collectiveintellect.com">collective intellect</a>: real time market intelligence</div>
+      <div class="sponsor ruby left" title="ruby is for gangsters" onclick="window.open('http://ruby-lang.org')"><a href="http://ruby-lang.org">ruby</a></div>
+      <div class="sponsor heroku left" title="free ruby app hosting, its awesome" onclick="window.open('http://heroku.com')"><a href="http://heroku.com">heroku</a></div>
+      <div class="sponsor ci left" title="market research using social media, unsolicited feedback, yeah its cool" onclick="window.open('http://collectiveintellect.com')"><a href="http://collectiveintellect.com">collective intellect</a>: real time market intelligence</div>
+      <div class="clear"></div>
+      <div class="sponsor github left" title="social coding, get gangster with some open source" onclick="window.open('http://github.com/ubermajestix/columbo')"><a href="http://github.com/ubermajestix/columbo">columbo is open source</a></div>
+      <div class="sponsor ubermajestix left" title="ubermajestix is Tyler Montgomery" onclick="window.open('http://ubermajestix.com')"><a href="http://ubermajestix.com">ubermajestix</a></div>
+      <div class="sponsor larrimore left" title="jeffreylarrimore is Jeffrey Larrimore" onclick="window.open('http://jeffreylarrimore.com')"><a href="http://jeffreylarrimore.com">jeffreylarrimore</a></div>
       <div class="clear"></div>
     </div>
     
   </div>
   <div class="paragraph left">  
-    <h1>Why?</h1>
+    <h1 id="who">Who we are.</h1>
+    <p>
+      Columbo's internals were hacked together by <a href="http://ubermajestix.com" title="awesomeness is awesome">Tyler Montgomery</a>. 
+      Columbo's awesome looking interface was designed by <a href="http://jeffreylarrimore.com" title="be more regalmore!">Jeffrey Larrimore</a>.
+    </p>
+    
+    <h1 id="why">Why you should love us.</h1>
     <p>
       Columbo was developed for analysts at <a href="http://collectiveintellect.com">Collective Intellect</a> who needed 
       to search for sets of words on lots of webpages. They were using the find tool built into the browser to search for one word at time.
       That was time consuming and ineffective.  Now they are able to type in several terms to Columbo and quickly find relevant content. 
-    </p>
-    
-    <h1>Who?</h1>
-    <p>
-      Columbo's internals were hacked together by <a href="http://ubermajestix.com" title="awesomeness is awesome">Tyler Montgomery</a>. 
-      Columbo's awesome looking interface was designed by <a href="http://jeffreylarrimore.com" title="be more regalmore!">Jeffrey Larrimore</a>.
     </p>
   </div>
   <div class="clear"></div>

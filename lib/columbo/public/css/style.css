@@ -15,7 +15,7 @@ p{margin-bottom:0.8em;}
 /*a{color:#F4D748; text-decoration: none;}  
 a:hover{color:#74C534;}*/
 
-a{color:#74BA30; text-decoration: none;}	
+a{color:#43a7c0; text-decoration: none;}	
 a:hover{color:#A6F45C;}
 
 div.team{padding:10px; border:1px solid;}
@@ -28,18 +28,15 @@ div#columbo{
   width:583px;
   background: transparent url('/images/columbo_bookmarklet.png') no-repeat;
   margin: 0 0 0 85px;
-  padding: 35px 0 0 220px;
+  padding: 75px 0 0 220px;
 }
 div#content{
   padding:15px 0 0 35px;
 }
 div#bookmarklet{
-/*  border: 1px solid #999;*/
-/*  height:85px;*/
-  width:175px;
-  font-size:7.0em;
-  padding:20px 0;
-  overflow:hidden;
+
+
+
 }
 h1{font-size: 1.2em; margin-bottom:0.5em; margin-top:10px;}
 .left{float:left;}
@@ -48,35 +45,70 @@ h1{font-size: 1.2em; margin-bottom:0.5em; margin-top:10px;}
 .paragraph{width:400px; font-size:1.0em; margin:20px 60px 20px 20px}
 
 
-a.bm:link, a.bm:visited, a.bm:hover{color:transparent; text-decoration: none;}
+a.bm:link, a.bm:visited, a.bm:hover {
+  color: transparent;
+  text-decoration: none;
+  font-size: 8.0em;
+}
+
 
 div#sponsors{padding:10px 0; border-top: 2px solid #555; margin-left:-5px;}
-.ruby{
+.sponsor{
   cursor: pointer;
   margin:5px;
+  text-indent: -1000px;
+}
+.ruby{
   height: 50px;
   width: 40px;
   background: transparent url("/images/ruby.png") no-repeat;
-  text-indent: -1000px;
 }
-
 .heroku{
-  cursor: pointer;
-  margin:5px;
   height: 50px;
   width: 130px;
   background: transparent url("/images/heroku.png") no-repeat;
-  text-indent: -1000px;
 }
-
 .ci{
-  cursor: pointer;
-  margin:5px;
   height: 50px;
   width: 200px;
   background: transparent url("/images/ci.png") no-repeat;
+}
+.github{
+  height: 54px;
+  width: 91px;
+  background: transparent url("/images/github.png") no-repeat;
+}
+.ubermajestix{
+  height: 54px;
+  width: 48px;
+  background: transparent url("/images/ubermajestix.png") no-repeat;
+}
+.larrimore{
+  height: 54px;
+  width: 153px;
+  background: transparent url("/images/larrimore.png") no-repeat;
+}
+
+h1#detective{
+  margin-left:-8px;
   text-indent: -1000px;
-  
+  height: 28px;
+  width: 183px;
+  background: transparent url("/images/detective.png") no-repeat;
+}
+h1#why{
+  margin-left:-10px;
+  text-indent: -2000px;
+  height: 28px;
+  width: 236px;
+  background: transparent url("/images/why.png") no-repeat;
+}
+h1#who{
+  margin-left:-10px;
+  text-indent: -2000px;
+  height: 28px;
+  width: 123px;
+  background: transparent url("/images/who.png") no-repeat;
 }
 
 
@@ -86,7 +118,7 @@ div#sponsors{padding:10px 0; border-top: 2px solid #555; margin-left:-5px;}
 	margin-top: -35px; /* negative value of footer height */
 	height: 25px;
 	clear:both;
-	background: #555;
+	background: #1c1c1c;
   color: #aaa;
 	padding:10px 10px 0;
 	font-size:0.7em;
