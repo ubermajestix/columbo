@@ -20,13 +20,13 @@ a:hover{color:#A6F45C;}
 
 div.team{padding:10px; border:1px solid;}
 div#header{
-  background: #fff url(/images/header.png) no-repeat;
+  background: #fff url(http://s3.amazonaws.com/getcolumbo/images/header.png) no-repeat;
   height: 171px;
 }
 div#columbo{
   height:171px;
   width:915px;
-  background: transparent url('/images/columbo_bookmarklet.png') no-repeat;
+  background: transparent url('http://s3.amazonaws.com/getcolumbo/images/columbo_bookmarklet.png') no-repeat;
   margin: 0 0 0 85px;
   padding: 75px 0 0 220px;
 }
@@ -61,32 +61,32 @@ div#sponsors{padding:10px 0; border-top: 2px solid #555; margin-left:-5px;}
 .ruby{
   height: 50px;
   width: 40px;
-  background: transparent url("/images/ruby.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/ruby.png") no-repeat;
 }
 .heroku{
   height: 50px;
   width: 130px;
-  background: transparent url("/images/heroku.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/heroku.png") no-repeat;
 }
 .ci{
   height: 50px;
   width: 200px;
-  background: transparent url("/images/ci.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/ci.png") no-repeat;
 }
 .github{
   height: 54px;
   width: 91px;
-  background: transparent url("/images/github.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/github.png") no-repeat;
 }
 .ubermajestix{
   height: 54px;
   width: 48px;
-  background: transparent url("/images/ubermajestix.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/ubermajestix.png") no-repeat;
 }
 .larrimore{
   height: 54px;
   width: 153px;
-  background: transparent url("/images/larrimore.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/larrimore.png") no-repeat;
 }
 
 h1#detective{
@@ -94,21 +94,21 @@ h1#detective{
   text-indent: -1000px;
   height: 28px;
   width: 183px;
-  background: transparent url("/images/detective.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/detective.png") no-repeat;
 }
 h1#why{
   margin-left:-10px;
   text-indent: -2000px;
   height: 28px;
   width: 236px;
-  background: transparent url("/images/why.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/why.png") no-repeat;
 }
 h1#who{
   margin-left:-10px;
   text-indent: -2000px;
   height: 28px;
   width: 123px;
-  background: transparent url("/images/who.png") no-repeat;
+  background: transparent url("http://s3.amazonaws.com/getcolumbo/images/who.png") no-repeat;
 }
 
 
