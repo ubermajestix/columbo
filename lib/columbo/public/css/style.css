@@ -20,12 +20,13 @@ a:hover{color:#A6F45C;}
 
 div.team{padding:10px; border:1px solid;}
 div#header{
-  background: #fff url(http://s3.amazonaws.com/getcolumbo/images/header.png) no-repeat;
-  height: 171px;
+  background: #8cb1bd url(http://s3.amazonaws.com/getcolumbo/images/header.png) no-repeat;
+/*  background: #8cb1bd url(../images/header.png) no-repeat;*/
+  height: 169px;
 }
 div#columbo{
   height:171px;
-  width:915px;
+/*  width:915px;*/
   background: transparent url('http://s3.amazonaws.com/getcolumbo/images/columbo_bookmarklet.png') no-repeat;
   margin: 0 0 0 85px;
   padding: 75px 0 0 220px;

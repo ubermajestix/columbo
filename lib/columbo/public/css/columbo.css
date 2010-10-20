@@ -101,7 +101,7 @@ div._columbo_clear_search{
 padding-top: 7px;
  height:34px;
  width:305px;
- background: transparent url('/images/close.png') no-repeat;
+ background: transparent url('../images/close.png') no-repeat;
 }
 div#_columbo_click_close{
   position:absolute;
