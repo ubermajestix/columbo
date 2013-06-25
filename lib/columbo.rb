@@ -14,7 +14,6 @@ module Columbo
   # :startdoc:
 
   class << self
-
     
     def initialize(opts={})      
       logger.info "Initializing Columbo"
